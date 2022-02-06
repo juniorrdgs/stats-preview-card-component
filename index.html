@@ -5,29 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="card">
+    <section class="left-side">
+      <h1 class="title">Get <span>insights</span> that help your business grow.</h1>
+      <p class="desc">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <div class="stats">
+        <div class="comp">
+          <h1>10k+</h1>
+          <span>COMPANIES</span>
+        </div>
+        <div class="temp">
+          <h1>314</h1>
+          <span>TEMPLATES</span>
+        </div>
+        <div class="quer">
+          <h1>12M+</h1>
+          <span>QUERIES</span>
+        </div>
+      </div>
+    </section>
+    <aside class="right-side"><div class="banner-color"></div></aside>
+  </main>
+  <footer>
+    <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/juniorrdgs">Júnior Rodrigues</a>.</span>
+  </footer>
 </body>
 </html>
